@@ -33,11 +33,20 @@ h1 {
 #inventorImage {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     object-fit: cover;
 }
-
-
+.glow {
+    animation: moveGlow 1s infinite ease-in-out;
+}
+@keyframes moveGlow {
+    
+    50% {
+        box-shadow: 0 0 25px 12px blue;
+    }
+    100% {
+        box-shadow: 0 0 10px 3px blue;
+    }
+}
 .square {
     border-radius: 0 !important;
 }
