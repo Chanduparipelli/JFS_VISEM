@@ -22,7 +22,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    // getters & setters
+   
     public int getId() { return id; }
 
     public String getName() { return name; }
